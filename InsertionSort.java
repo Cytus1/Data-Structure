@@ -12,10 +12,5 @@ public class InsertionSort {
             arr[insertPos] = key;
         }
     }
-
-    public static void main(String... arg){
-        int[] testArray = {3, 4, 8, 1, 10};
-        insertionSort(testArray);
-        for (int num : testArray){System.out.print(num + " ");}
-    }
+    
 }
